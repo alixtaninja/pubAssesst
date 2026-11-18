@@ -1,0 +1,6 @@
+{
+  "name": "Hào Khí Lạc Hồng — Art Asset Pack",
+  "description": "Bộ tài nguyên đồ họa PNG RGBA chuẩn Đông Sơn, Đông Hồ và Sơn Mài cho game Match-3 Hào Khí Lạc Hồng trên Unity.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
