@@ -27,14 +27,14 @@ ASSET_SPECS = [
     {"id": "SungTrau", "prefix": "tile_sung_trau_", "rel": "Tiles/SungTrau.png", "w": 256, "h": 256, "fill": 0.87, "fuzz": 15},
     {"id": "NonLa", "prefix": "tile_non_la_", "rel": "Tiles/NonLa.png", "w": 256, "h": 256, "fill": 0.87, "fuzz": 15},
 
-    # Part B: 7 Special Gems (256x256)
-    {"id": "DragonSeal", "prefix": "gem_dragon_seal_", "rel": "Gems/DragonSeal.png", "w": 256, "h": 256, "fill": 0.87, "fuzz": 15},
-    {"id": "FairyLotus", "prefix": "gem_fairy_lotus_", "rel": "Gems/FairyLotus.png", "w": 256, "h": 256, "fill": 0.87, "fuzz": 15},
-    {"id": "IronBamboo", "prefix": "gem_iron_bamboo_", "rel": "Gems/IronBamboo.png", "w": 256, "h": 256, "fill": 0.87, "fuzz": 15},
-    {"id": "MagicStaff", "prefix": "gem_magic_staff_", "rel": "Gems/MagicStaff.png", "w": 256, "h": 256, "fill": 0.87, "fuzz": 15},
-    {"id": "MountainJade", "prefix": "gem_mountain_jade_", "rel": "Gems/MountainJade.png", "w": 256, "h": 256, "fill": 0.87, "fuzz": 15},
-    {"id": "IncenseOffering", "prefix": "gem_incense_offering_", "rel": "Gems/IncenseOffering.png", "w": 256, "h": 256, "fill": 0.87, "fuzz": 15},
-    {"id": "DivineCrossbow", "prefix": "gem_divine_crossbow_", "rel": "Gems/DivineCrossbow.png", "w": 256, "h": 256, "fill": 0.87, "fuzz": 15},
+    # Part B: 7 Special Gems (256x256) — v3 slender 4-gem frames with frame-breaking silhouettes
+    {"id": "DragonSeal", "prefix": "gem_dragon_seal_", "rel": "Gems/DragonSeal.png", "w": 256, "h": 256, "fill": 0.88, "fuzz": 14, "fine_edge": True},
+    {"id": "FairyLotus", "prefix": "gem_fairy_lotus_", "rel": "Gems/FairyLotus.png", "w": 256, "h": 256, "fill": 0.88, "fuzz": 14, "fine_edge": True},
+    {"id": "IronBamboo", "prefix": "gem_iron_bamboo_", "rel": "Gems/IronBamboo.png", "w": 256, "h": 256, "fill": 0.88, "fuzz": 14, "fine_edge": True},
+    {"id": "MagicStaff", "prefix": "gem_magic_staff_", "rel": "Gems/MagicStaff.png", "w": 256, "h": 256, "fill": 0.88, "fuzz": 14, "fine_edge": True},
+    {"id": "MountainJade", "prefix": "gem_mountain_jade_", "rel": "Gems/MountainJade.png", "w": 256, "h": 256, "fill": 0.88, "fuzz": 14, "fine_edge": True},
+    {"id": "IncenseOffering", "prefix": "gem_incense_offering_", "rel": "Gems/IncenseOffering.png", "w": 256, "h": 256, "fill": 0.88, "fuzz": 14, "fine_edge": True},
+    {"id": "DivineCrossbow", "prefix": "gem_divine_crossbow_", "rel": "Gems/DivineCrossbow.png", "w": 256, "h": 256, "fill": 0.88, "fuzz": 14, "fine_edge": True},
 
     # Part C: 6 Hero Portraits (256x256)
     {"id": "Hero_LacLongQuan", "prefix": "hero_lac_long_quan_", "rel": "Portraits/Hero_LacLongQuan.png", "w": 256, "h": 256, "fill": 0.87, "fuzz": 15},
@@ -51,7 +51,7 @@ ASSET_SPECS = [
     {"id": "Enemy_BachKeSpirit", "prefix": "enemy_bach_ke_", "rel": "Portraits/Enemy_BachKeSpirit.png", "w": 256, "h": 256, "fill": 0.87, "fuzz": 15},
     {"id": "Enemy_TrieuDaSoldier", "prefix": "enemy_trieu_da_", "rel": "Portraits/Enemy_TrieuDaSoldier.png", "w": 256, "h": 256, "fill": 0.87, "fuzz": 15},
     {"id": "Enemy_GiacAnSoldier", "prefix": "enemy_giac_an_", "rel": "Portraits/Enemy_GiacAnSoldier.png", "w": 256, "h": 256, "fill": 0.87, "fuzz": 15},
-    {"id": "Enemy_AncientSeal", "prefix": "enemy_ancient_seal_", "rel": "Portraits/Enemy_AncientSeal.png", "w": 256, "h": 256, "fill": 0.87, "fuzz": 15},
+    {"id": "Enemy_AncientSeal", "prefix": "enemy_ancient_seal_", "rel": "Portraits/Enemy_AncientSeal.png", "w": 256, "h": 256, "fill": 0.87, "fuzz": 15, "pre_pipeline": "enemy_ancient_seal_daylight"},
     {"id": "MocTinhHp2Overlay", "prefix": "board_hp2_overlay_", "rel": "Board/MocTinhHp2Overlay.png", "w": 256, "h": 256, "fill": 0.90, "fuzz": 14, "hollow_center": True, "remove_white_pockets": True},
 
     # Part E: Environment & Board
@@ -208,6 +208,13 @@ def apply_pre_pipeline(src: Path, pipeline: str, tmp_dir: Path) -> Path:
             "-modulate", "120,118,103",
             str(out),
         ]
+    elif pipeline == "enemy_ancient_seal_daylight":
+        # Gentle daylight lift for #F4E6CA paper backdrop while preserving crisp white outer bg
+        cmd = [
+            "convert", str(src),
+            "-modulate", "112,106,100",
+            str(out),
+        ]
     else:
         return src
     subprocess.run(cmd, check=True)
@@ -291,7 +298,7 @@ def process_one(spec: dict) -> dict | None:
         else:
             cmd.extend(["-shave", "2x2"])
 
-        erode_disk = "Disk:1" if spec.get("remove_white_pockets") else "Disk:2"
+        erode_disk = "Disk:1" if (spec.get("remove_white_pockets") or spec.get("fine_edge")) else "Disk:2"
         # Clean anti-alias & soft drop-shadow fringe at 1024px before 4x Lanczos downsampling
         cmd.extend([
             "-channel", "A",

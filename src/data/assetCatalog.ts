@@ -135,9 +135,9 @@ export const ASSET_CATALOG: AssetSpec[] = [
     targetHeight: 256,
     colorHex: '#C86D3B',
     descriptionVi:
-      'Đĩa tròn sơn mài 2D màu cam đất nung / đồng đỏ (#C86D3B) tách biệt rõ với Lúa Vàng, viền đồng mảnh 6 px, ngôi sao 12 cánh vàng nhạt cùng 2 vòng hoa văn Đông Sơn nét to.',
+      'Đĩa tròn sơn mài 2D màu cam đất nung / đồng đỏ (#C86D3B) viền đồng mảnh 6 px, ngôi sao 12 cánh đồng đúc nổi gọn tâm (~25% đường kính) cùng 3 vòng hoa văn chấm nổi, chữ S và Chim Lạc nét to rõ ở 64 px.',
     promptSummary:
-      'Circular smooth burnt-terracotta (#C86D3B) 2D lacquer medallion with 6px bronze rim, 12-pointed pale-gold star and two clean Dong Son rings.',
+      'Terracotta copper-orange (#C86D3B) 2D Dong Son bronze drum medallion with 6px rim, compact 25% sculpted 12-point bronze star and 3 deeply-carved concentric rings.',
   },
   {
     id: 'ChimHac',
@@ -171,11 +171,11 @@ export const ASSET_CATALOG: AssetSpec[] = [
     theme: 'SonMaiGoldGlow',
     targetWidth: 256,
     targetHeight: 256,
-    colorHex: '#6B5278',
+    colorHex: '#8E5BB8',
     descriptionVi:
-      'Đĩa tròn sơn mài 2D màu tím hoa cà (#6B5278) viền đồng mảnh 6 px, đầu Trâu Nước Việt Nam hiền hòa với cặp sừng dài uốn cong rộng hình trăng khuyết nạm vàng.',
+      'Đĩa tròn sơn mài Tím Hoàng Gia tâm sáng (#8E5BB8 -> #56307A) viền đồng mảnh 6 px đồng bộ ChimHac, họa tiết Trâu Nước Đông Sơn chạm vàng ngà cách điệu với cặp sừng trăng khuyết khắc vân xoắn.',
     promptSummary:
-      'Circular muted plum-indigo (#6B5278) 2D lacquer medallion with 6px rim, calm Vietnamese water buffalo head with wide gold crescent horns.',
+      'Luminous royal violet-amethyst (#8E5BB8 to #56307A) lacquer medallion with 6px rim, stylized golden-ivory Dong Son carved water buffalo motif matching ChimHac.',
   },
   {
     id: 'NonLa',
@@ -213,9 +213,9 @@ export const ASSET_CATALOG: AssetSpec[] = [
     targetHeight: 256,
     colorHex: '#D8A24A',
     descriptionVi:
-      'Ấn ngọc vàng kim chạm hình Rồng Việt cổ uốn lượn mềm mại như sóng nước, ngậm ngọc sáng xanh biển, tỏa hào quang sơn mài.',
+      'Khung bát giác đồng vàng – ngọc bích thanh mảnh (12%) đính đúng 4 viên ngọc lam (12/3/6/9 giờ) trên nền sóng biển #195C66; Rồng Việt cổ không cánh cuộn gọn uy nghiêm hoàn toàn trong khung, ôm viên ngọc biển sáng rực.',
     promptSummary:
-      'Octagonal gold-jade seal engraved with wingless ancient Vietnamese serpent dragon and luminous pearl.',
+      'Slender 12% gold-jade octagonal frame with 4 cardinal turquoise gems over #195C66 sea-teal swirl: wingless golden Dong Son dragon tightly coiled inside frame cradling glowing cyan pearl.',
   },
   {
     id: 'FairyLotus',
@@ -232,9 +232,9 @@ export const ASSET_CATALOG: AssetSpec[] = [
     targetHeight: 256,
     colorHex: '#E84A7F',
     descriptionVi:
-      'Đóa sen tiên 9 cánh hồng phấn – vàng kim trong khung bát giác đồng vàng khảm ngọc lam nền sơn mài #5E283B, tâm nâng bọc lụa vàng mở cụm 7 quả trứng vàng sáng rõ nét.',
+      'Khung bát giác sơn mài đỏ thẫm viền vàng mảnh (12%) đính 4 viên ngọc hồng-vàng trên nền #6E2C45; đóa sen tiên 9 cánh hồng phấn bung nở lớn chớm phá khung, nâng bọc lụa vàng chứa cụm trứng vàng rực sáng.',
     promptSummary:
-      'Octagonal gold-jade DragonSeal frame over #5E283B rose lacquer: glowing 9-petal lotus cradling golden silk pouch with seven luminous eggs.',
+      'Slender 12% crimson-gold octagonal frame with 4 pink-gold cardinal gems over #6E2C45 rose-plum glow: blooming 9-petal pastel lotus overlapping rim cradling golden silk egg pouch.',
   },
   {
     id: 'IronBamboo',
@@ -251,9 +251,9 @@ export const ASSET_CATALOG: AssetSpec[] = [
     targetHeight: 256,
     colorHex: '#E06428',
     descriptionVi:
-      'Khung bát giác đồng vàng khảm ngọc lam nền #2B4D46, bụi Tre Đằng Ngà vàng óng bắt chéo phía sau thanh Roi Sắt rèn xám đen thẳng cứng có đốt khớp ánh lửa cam.',
+      'Khung bát giác thép rèn & đồng sáng thanh mảnh (12%) đính 4 ngọc hổ phách cam trên nền #315C53; thanh Roi Sắt thẳng cứng có khớp lửa rèn bắt chéo cùng thân Tre Đằng Ngà vàng óng nằm gọn hoàn toàn trong viền khung.',
     promptSummary:
-      'Octagonal gold-jade frame over #2B4D46 teal lacquer: golden bamboo stalks crossed behind straight rigid charcoal-iron baton with glowing forge joints.',
+      'Slender 12% forged-steel & bronze octagonal frame with 4 amber cardinal gems over #315C53 jade-amber: crossed rigid iron baton with ember joints and golden bamboo cleanly contained inside frame.',
   },
   {
     id: 'MagicStaff',
@@ -270,9 +270,9 @@ export const ASSET_CATALOG: AssetSpec[] = [
     targetHeight: 256,
     colorHex: '#F5C238',
     descriptionVi:
-      'Khung bát giác đồng vàng khảm ngọc lam nền xanh ngọc hoàng hôn #2B4E5C, cây gậy trúc thần nghiêng 20° đội nón lá vàng tỏa tia nắng và dải mây ấm áp.',
+      'Khung bát giác đồng vàng khắc vân mây thanh mảnh (12%) đính 4 ngọc lam sáng trên nền trời hoàng hôn #315E6E; cây gậy trúc thần đặt chéo nâng nón lá vàng phát hào quang dịu nằm gọn hoàn toàn bên trong viền bát giác.',
     promptSummary:
-      'Octagonal gold-jade frame over #2B4E5C backdrop: glowing bamboo staff tilted 20° topped by golden Non La hat radiating soft warm sunbeams.',
+      'Slender 12% gold-bronze cloud-scroll octagonal frame with 4 cyan cardinal gems over #315E6E twilight teal: diagonal bamboo staff supporting softly glowing golden Non La hat strictly contained inside frame.',
   },
   {
     id: 'MountainJade',
@@ -289,9 +289,9 @@ export const ASSET_CATALOG: AssetSpec[] = [
     targetHeight: 256,
     colorHex: '#2E9E75',
     descriptionVi:
-      'Khung bát giác đồng vàng khảm ngọc lam nền ngọc bích #1B4D46, ba đỉnh núi Tản Viên tạc bằng ngọc bích sáng trong giữa mây cuộn trắng và dải hào quang vàng uốn mềm.',
+      'Khung bát giác đồng – đá chạm thanh mảnh (12%) đính 4 viên ngọc lục bảo trên nền #225E54; ba đỉnh núi Tản Viên tạc ngọc bích đa diện lớn nổi khối cùng mây trắng kem và dải lụa hào quang vàng mềm.',
     promptSummary:
-      'Octagonal gold-jade frame over #1B4D46 celadon backdrop: three luminous emerald-jade Tan Vien peaks wrapped in pale clouds and smooth golden light ribbon.',
+      'Slender 12% bronze-stone octagonal frame with 4 emerald cardinal gems over #225E54 jade-teal: sculptural faceted emerald-jade Tan Vien triple peaks with cream clouds and golden ribbon.',
   },
   {
     id: 'IncenseOffering',
@@ -308,9 +308,9 @@ export const ASSET_CATALOG: AssetSpec[] = [
     targetHeight: 256,
     colorHex: '#D8A24A',
     descriptionVi:
-      'Khung bát giác đồng vàng khảm ngọc lam nền sơn mài đỏ son #4A1812, đỉnh đồng Đông Sơn 3 chân chạm chim Lạc tỏa làn khói trầm hương xanh ngọc và vàng kim.',
+      'Khung bát giác đồng đỏ khắc vân lửa thanh mảnh (12%) đính 4 viên ngọc hổ phách trên nền sơn mài đỏ son rực ấm (#782418); đỉnh đồng Đông Sơn 3 chân lớn tỏa làn khói linh khí vàng – lam uốn lượn gọn gàng hoàn toàn trong khung.',
     promptSummary:
-      'Octagonal gold-jade frame over #4A1812 crimson lacquer: three-legged Dong Son bronze cauldron engraved with Lac birds emitting pastel teal-gold smoke.',
+      'Slender 12% red-copper flame-engraved octagonal frame with 4 amber cardinal gems over #782418 cinnabar glow: prominent 3-legged Dong Son bronze cauldron with gold-teal spirit smoke contained neatly inside frame.',
   },
   {
     id: 'DivineCrossbow',
@@ -327,9 +327,9 @@ export const ASSET_CATALOG: AssetSpec[] = [
     targetHeight: 256,
     colorHex: '#3BA8B8',
     descriptionVi:
-      'Khung bát giác đồng vàng khảm ngọc lam nền #183F47, cây nỏ gỗ sơn mài đỏ nâu nạm họa tiết mai rùa vàng phẳng dọc báng, lẫy móng rùa sáng vàng và 3 mũi tên đầu lam ngọc.',
+      'Chuẩn Nỏ Thần v3: khung bát giác đồng vàng thanh mảnh (12%) đính đúng 4 viên ngọc lam (12/3/6/9 giờ) trên trường năng lượng ngọc bích sáng; cây Nỏ Thần gỗ sơn mài đỏ đặt chéo 45° lắp mũi tên linh quang lam ngọc vươn phá mép khung trên-phải.',
     promptSummary:
-      'Octagonal gold-jade frame over #183F47 teal lacquer: curved wooden-bronze crossbow with flat golden turtle-shell stock inlay, claw trigger, and 3 cyan-jade arrows.',
+      'Anchor v3 slender 12% beveled gold-bronze octagonal frame with 4 turquoise cardinal gems over glowing turquoise-jade field: 45-degree diagonal lacquered Divine Crossbow with cyan spirit arrow breaking upper-right rim.',
   },
 
   // Part C — 6 Hero Portraits
@@ -495,11 +495,11 @@ export const ASSET_CATALOG: AssetSpec[] = [
     theme: 'SonMaiGoldGlow',
     targetWidth: 256,
     targetHeight: 256,
-    colorHex: '#8C4BA8',
+    colorHex: '#D9A77C',
     descriptionVi:
-      'Minh họa 2D trong khung đồng cổ sẫm khảm 4 ngọc tím-đỏ: nguyên hình cáo trắng 4 chân chín đuôi mang ấn lửa đỏ trên trán, bước trên làn sương tím mặt nước Hồ Tây.',
+      'Minh họa 2D chuẩn sáng nền giấy dó trong khung đồng cổ khảm 4 ngọc đỏ-hổ phách: nguyên hình cáo trắng 4 chân chín đuôi mang ấn lửa đỏ trên trán, bước trong sương hoàng hôn vàng-hồng ấm (#D9A77C, không ám tím).',
     promptSummary:
-      '2D folk medallion in dark bronze 4-gem frame: feral quadruped white nine-tailed fox with crimson forehead mark over misty purple West Lake water.',
+      'Daylight-readable 2D folk medallion in dark bronze 4-gem frame: feral quadruped white nine-tailed fox with crimson forehead mark inside warm sunlit rose-amber & peach dawn mist (0% purple).',
   },
   {
     id: 'Enemy_MocTinhRoot',
@@ -514,11 +514,11 @@ export const ASSET_CATALOG: AssetSpec[] = [
     theme: 'JadeBronzeRelief',
     targetWidth: 256,
     targetHeight: 256,
-    colorHex: '#4E8F52',
+    colorHex: '#8A5E3B',
     descriptionVi:
-      'Minh họa 2D trong khung đồng cổ sẫm khảm 4 ngọc tím-đỏ: gốc cổ thụ đa chiên đàn vặn xoắn rễ rêu, hai hốc mắt ngọc lục bảo phát sáng giữa sương rừng và đom đóm.',
+      'Minh họa 2D sáng rõ trên nền giấy dó trong khung đồng cổ khảm 4 ngọc đỏ-hổ phách: gốc đa cổ thụ vỏ gỗ nâu hổ phách sáng (#8A5E3B), rêu xanh nổi khối và mạch linh khí ngọc lục bảo dẫn lên 2 hốc mắt sáng trên nền sương rừng vàng-ô liu (#B4C49A).',
     promptSummary:
-      '2D folk medallion in dark bronze 4-gem frame: gnarled Vietnamese banyan trunk monster with hollow glowing emerald eye sockets and mossy roots, no human face.',
+      'Daylight-readable 2D folk medallion in dark bronze 4-gem frame: sunlit amber-brown banyan tree trunk monster with emerald spirit veins and hollow luminous emerald eyes against pale olive-gold mist.',
   },
   {
     id: 'Enemy_BachKeSpirit',
@@ -552,11 +552,11 @@ export const ASSET_CATALOG: AssetSpec[] = [
     theme: 'SonMaiGoldGlow',
     targetWidth: 256,
     targetHeight: 256,
-    colorHex: '#8C3E32',
+    colorHex: '#5B6874',
     descriptionVi:
-      'Minh họa 2D trong khung đồng cổ sẫm khảm 4 ngọc tím-đỏ: thế thủ góc 3/4 chiến binh Nam Việt đội mũ đồng Á Đông kéo thấp che mắt trên, cầm kích và khiên tròn hoa văn xoắn kỷ hà.',
+      'Minh họa 2D sáng rõ trong khung sắt xám cổ khảm 4 viên ngọc đỏ thẫm (không dùng sắc vàng chính nghĩa): thế thủ 3/4 chiến binh Triệu Đà giáp phiến sắt thép lạnh phối áo lót & khiên sơn đỏ son vân xoắn, nền sương bão xám bạc sáng rõ trên nền giấy dó (#C6D0D6, 0% tím).',
     promptSummary:
-      '2D folk medallion in dark bronze 4-gem frame: 3/4 guard pose of Nanyue bronze warrior with low-tilted helmet, geometric spiral round shield, and bronze halberd.',
+      'Daylight-readable 2D folk medallion in cold gunmetal-iron 4-crimson-gem frame (zero heroic gold): 3/4 guard pose Trieu Da soldier in steel lamellar armor with crimson lacquer spiral shield over bright pale storm-slate mist (0% purple).',
   },
   {
     id: 'Enemy_GiacAnSoldier',
@@ -571,11 +571,11 @@ export const ASSET_CATALOG: AssetSpec[] = [
     theme: 'JadeBronzeRelief',
     targetWidth: 256,
     targetHeight: 256,
-    colorHex: '#7A4035',
+    colorHex: '#9E2F2C',
     descriptionVi:
-      'Minh họa 2D tỷ lệ chuẩn trong khung đồng cổ sẫm khảm 4 ngọc tím-đỏ: thế công góc 3/4 chiến binh Giặc Ân đội mũ đồng chóp chùm lông đỏ sẫm, khiên tròn vân mây kỷ hà và rìu qua đồng.',
+      'Minh họa 2D sáng rõ trong khung sắt đen cổ khảm 4 viên ngọc đỏ thẫm (không dùng sắc vàng chính nghĩa): thế công 3/4 chiến binh Giặc Ân giáp sắt rèn lạnh, chùm lông mũ & áo choàng đỏ son, khiên đinh tán sắt – đỏ và rìu chiến trên nền khói tro sáng pha hồng tro (#CBC4C2, 0% tím).',
     promptSummary:
-      '2D folk medallion in dark bronze 4-gem frame: 3/4 combat pose of ancient Shang vanguard in conical plumed helmet with spiral shield and bronze dagger-axe.',
+      'Daylight-readable 2D folk medallion in dark tarnished-iron 4-crimson-gem frame (zero heroic gold): 3/4 combat pose An vanguard in blackened steel armor, crimson plume & cloak, iron-studded crimson shield over bright pale ash-grey smoke with subtle cinder haze (0% purple).',
   },
   {
     id: 'Enemy_AncientSeal',

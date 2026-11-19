@@ -34,15 +34,15 @@
     "relPath": "Tiles/TrongDong.png",
     "unityPath": "Assets/Resources/Art/Tiles/TrongDong.png",
     "publicUrl": "/art/Tiles/TrongDong.png",
-    "rawUrl": "/src/assets/images/tile_trong_dong_v21_1794989276932.jpg",
+    "rawUrl": "/src/assets/images/tile_trong_dong_1795093539336.jpg",
     "width": 256,
     "height": 256,
     "cornersTransparent": true,
     "centerTransparent": false,
     "bboxWidth": 223,
-    "bboxHeight": 223,
+    "bboxHeight": 222,
     "occupancyPct": 87.1,
-    "bytes": 125207
+    "bytes": 128643
   },
   {
     "id": "ChimHac",
@@ -64,7 +64,7 @@
     "relPath": "Tiles/SungTrau.png",
     "unityPath": "Assets/Resources/Art/Tiles/SungTrau.png",
     "publicUrl": "/art/Tiles/SungTrau.png",
-    "rawUrl": "/src/assets/images/tile_sung_trau_v21_1794989276665.jpg",
+    "rawUrl": "/src/assets/images/tile_sung_trau_1795093539202.jpg",
     "width": 256,
     "height": 256,
     "cornersTransparent": true,
@@ -72,7 +72,7 @@
     "bboxWidth": 223,
     "bboxHeight": 223,
     "occupancyPct": 87.1,
-    "bytes": 79730
+    "bytes": 94748
   },
   {
     "id": "NonLa",
@@ -94,105 +94,105 @@
     "relPath": "Gems/DragonSeal.png",
     "unityPath": "Assets/Resources/Art/Gems/DragonSeal.png",
     "publicUrl": "/art/Gems/DragonSeal.png",
-    "rawUrl": "/src/assets/images/gem_dragon_seal_1794903146077.jpg",
+    "rawUrl": "/src/assets/images/gem_dragon_seal_1795094564813.jpg",
     "width": 256,
     "height": 256,
     "cornersTransparent": true,
     "centerTransparent": false,
-    "bboxWidth": 220,
-    "bboxHeight": 223,
-    "occupancyPct": 87.1,
-    "bytes": 132162
+    "bboxWidth": 222,
+    "bboxHeight": 225,
+    "occupancyPct": 87.9,
+    "bytes": 111906
   },
   {
     "id": "FairyLotus",
     "relPath": "Gems/FairyLotus.png",
     "unityPath": "Assets/Resources/Art/Gems/FairyLotus.png",
     "publicUrl": "/art/Gems/FairyLotus.png",
-    "rawUrl": "/src/assets/images/gem_fairy_lotus_v21_1794989296579.jpg",
+    "rawUrl": "/src/assets/images/gem_fairy_lotus_1795093538128.jpg",
     "width": 256,
     "height": 256,
     "cornersTransparent": true,
     "centerTransparent": false,
-    "bboxWidth": 223,
-    "bboxHeight": 221,
-    "occupancyPct": 87.1,
-    "bytes": 127936
+    "bboxWidth": 225,
+    "bboxHeight": 225,
+    "occupancyPct": 87.9,
+    "bytes": 101880
   },
   {
     "id": "IronBamboo",
     "relPath": "Gems/IronBamboo.png",
     "unityPath": "Assets/Resources/Art/Gems/IronBamboo.png",
     "publicUrl": "/art/Gems/IronBamboo.png",
-    "rawUrl": "/src/assets/images/gem_iron_bamboo_v21_1794989299270.jpg",
+    "rawUrl": "/src/assets/images/gem_iron_bamboo_1795094532862.jpg",
     "width": 256,
     "height": 256,
     "cornersTransparent": true,
     "centerTransparent": false,
-    "bboxWidth": 223,
-    "bboxHeight": 221,
-    "occupancyPct": 87.1,
-    "bytes": 138950
+    "bboxWidth": 218,
+    "bboxHeight": 225,
+    "occupancyPct": 87.9,
+    "bytes": 108375
   },
   {
     "id": "MagicStaff",
     "relPath": "Gems/MagicStaff.png",
     "unityPath": "Assets/Resources/Art/Gems/MagicStaff.png",
     "publicUrl": "/art/Gems/MagicStaff.png",
-    "rawUrl": "/src/assets/images/gem_magic_staff_v21_1794989296101.jpg",
+    "rawUrl": "/src/assets/images/gem_magic_staff_1795094533652.jpg",
     "width": 256,
     "height": 256,
     "cornersTransparent": true,
     "centerTransparent": false,
-    "bboxWidth": 223,
-    "bboxHeight": 221,
-    "occupancyPct": 87.1,
-    "bytes": 124785
+    "bboxWidth": 221,
+    "bboxHeight": 225,
+    "occupancyPct": 87.9,
+    "bytes": 109253
   },
   {
     "id": "MountainJade",
     "relPath": "Gems/MountainJade.png",
     "unityPath": "Assets/Resources/Art/Gems/MountainJade.png",
     "publicUrl": "/art/Gems/MountainJade.png",
-    "rawUrl": "/src/assets/images/gem_mountain_jade_v21_1794989296915.jpg",
+    "rawUrl": "/src/assets/images/gem_mountain_jade_1795093537743.jpg",
     "width": 256,
     "height": 256,
     "cornersTransparent": true,
     "centerTransparent": false,
-    "bboxWidth": 223,
-    "bboxHeight": 222,
-    "occupancyPct": 87.1,
-    "bytes": 130709
+    "bboxWidth": 219,
+    "bboxHeight": 225,
+    "occupancyPct": 87.9,
+    "bytes": 103263
   },
   {
     "id": "IncenseOffering",
     "relPath": "Gems/IncenseOffering.png",
     "unityPath": "Assets/Resources/Art/Gems/IncenseOffering.png",
     "publicUrl": "/art/Gems/IncenseOffering.png",
-    "rawUrl": "/src/assets/images/gem_incense_offering_v21_1794989316615.jpg",
+    "rawUrl": "/src/assets/images/gem_incense_offering_1795094534013.jpg",
     "width": 256,
     "height": 256,
     "cornersTransparent": true,
     "centerTransparent": false,
-    "bboxWidth": 223,
-    "bboxHeight": 221,
-    "occupancyPct": 87.1,
-    "bytes": 124323
+    "bboxWidth": 225,
+    "bboxHeight": 225,
+    "occupancyPct": 87.9,
+    "bytes": 109881
   },
   {
     "id": "DivineCrossbow",
     "relPath": "Gems/DivineCrossbow.png",
     "unityPath": "Assets/Resources/Art/Gems/DivineCrossbow.png",
     "publicUrl": "/art/Gems/DivineCrossbow.png",
-    "rawUrl": "/src/assets/images/gem_divine_crossbow_v21b_1794989371161.jpg",
+    "rawUrl": "/src/assets/images/gem_divine_crossbow_1795093537846.jpg",
     "width": 256,
     "height": 256,
     "cornersTransparent": true,
     "centerTransparent": false,
-    "bboxWidth": 223,
-    "bboxHeight": 221,
-    "occupancyPct": 87.1,
-    "bytes": 126854
+    "bboxWidth": 222,
+    "bboxHeight": 225,
+    "occupancyPct": 87.9,
+    "bytes": 105164
   },
   {
     "id": "Hero_LacLongQuan",
@@ -304,7 +304,7 @@
     "relPath": "Portraits/Enemy_HoTinhFog.png",
     "unityPath": "Assets/Resources/Art/Portraits/Enemy_HoTinhFog.png",
     "publicUrl": "/art/Portraits/Enemy_HoTinhFog.png",
-    "rawUrl": "/src/assets/images/enemy_ho_tinh_v21b_1794989373222.jpg",
+    "rawUrl": "/src/assets/images/enemy_ho_tinh_1795093575637.jpg",
     "width": 256,
     "height": 256,
     "cornersTransparent": true,
@@ -312,14 +312,14 @@
     "bboxWidth": 223,
     "bboxHeight": 223,
     "occupancyPct": 87.1,
-    "bytes": 128532
+    "bytes": 120759
   },
   {
     "id": "Enemy_MocTinhRoot",
     "relPath": "Portraits/Enemy_MocTinhRoot.png",
     "unityPath": "Assets/Resources/Art/Portraits/Enemy_MocTinhRoot.png",
     "publicUrl": "/art/Portraits/Enemy_MocTinhRoot.png",
-    "rawUrl": "/src/assets/images/enemy_moc_tinh_v21_1794989343496.jpg",
+    "rawUrl": "/src/assets/images/enemy_moc_tinh_1795093538419.jpg",
     "width": 256,
     "height": 256,
     "cornersTransparent": true,
@@ -327,7 +327,7 @@
     "bboxWidth": 223,
     "bboxHeight": 223,
     "occupancyPct": 87.1,
-    "bytes": 121814
+    "bytes": 116088
   },
   {
     "id": "Enemy_BachKeSpirit",
@@ -349,7 +349,7 @@
     "relPath": "Portraits/Enemy_TrieuDaSoldier.png",
     "unityPath": "Assets/Resources/Art/Portraits/Enemy_TrieuDaSoldier.png",
     "publicUrl": "/art/Portraits/Enemy_TrieuDaSoldier.png",
-    "rawUrl": "/src/assets/images/enemy_trieu_da_v21_1794989343134.jpg",
+    "rawUrl": "/src/assets/images/enemy_trieu_da_1795094531235.jpg",
     "width": 256,
     "height": 256,
     "cornersTransparent": true,
@@ -357,14 +357,14 @@
     "bboxWidth": 223,
     "bboxHeight": 223,
     "occupancyPct": 87.1,
-    "bytes": 124537
+    "bytes": 116058
   },
   {
     "id": "Enemy_GiacAnSoldier",
     "relPath": "Portraits/Enemy_GiacAnSoldier.png",
     "unityPath": "Assets/Resources/Art/Portraits/Enemy_GiacAnSoldier.png",
     "publicUrl": "/art/Portraits/Enemy_GiacAnSoldier.png",
-    "rawUrl": "/src/assets/images/enemy_giac_an_v21_1794989343842.jpg",
+    "rawUrl": "/src/assets/images/enemy_giac_an_1795094529891.jpg",
     "width": 256,
     "height": 256,
     "cornersTransparent": true,
@@ -372,7 +372,7 @@
     "bboxWidth": 223,
     "bboxHeight": 223,
     "occupancyPct": 87.1,
-    "bytes": 122205
+    "bytes": 121132
   },
   {
     "id": "Enemy_AncientSeal",
@@ -387,7 +387,7 @@
     "bboxWidth": 223,
     "bboxHeight": 223,
     "occupancyPct": 87.1,
-    "bytes": 127008
+    "bytes": 130572
   },
   {
     "id": "MocTinhHp2Overlay",
